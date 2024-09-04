@@ -1,0 +1,5 @@
+**/node_modules
+**/dist
+turbopack/next-env.d.ts
+turbopack/.next
+.DS_Store
