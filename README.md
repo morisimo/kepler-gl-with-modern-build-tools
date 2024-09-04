@@ -1,30 +1,30 @@
 # Kepler.gl Vite and RSBuild examples
 
-This repository contains examples of how to use [Kepler.gl](https://github.com/keplergl/kepler.gl) with [Vite](https://vitejs.dev/) and [RSBuild](https://rsbuild.dev/).
+This repository contains examples of how to use [Kepler.gl](https://github.com/keplergl/kepler.gl) with [_Vite_](https://vitejs.dev/), [_RSBuild_](https://rsbuild.dev/) and [_Turbopack_](https://turbo.build/) (based on [_Next.js_](https://nextjs.org/)).
 
-Both RSBuild and Vite examples also include TypeScript and the latest version of Redux Toolkit.
+All examples are TypeScript and Redux Toolkit based.
 
 ## Rationale
 
 Frontend developer tooling has evolved rapidly in recent years. Typescript is the new norm, and build tools like Vite and RSBuild provide a more streamlined and efficient workflow compared to Webpack.
 
-Redux has also significantly evolved, with the introduction of [Redux Toolkit](https://redux-toolkit.js.org/) and [RTK Query](https://redux-toolkit.js.org/rtk-query/overview). The lates version (2.x.x) is Typescript-first and provides a more streamlined and efficient workflow compared older versions of Redux.
+Redux has also significantly evolved, with the introduction of [_Redux Toolkit_](https://redux-toolkit.js.org/) and [_RTK Query_](https://redux-toolkit.js.org/rtk-query/overview). The lates version (2.x.x) is Typescript-first and provides a more streamlined and efficient workflow compared older versions of Redux.
 
 This repo is intended to serve as both a starter kit for integrating Kepler.gl into modern frontend applications as well as serve as a testbed for testing the latest versions of Kepler.gl, Redux, and Typescript.
 
 ## Packages
 
-- [Kepler.gl](https://github.com/keplergl/kepler.gl) v3.0.0
-- [Redux Toolkit](https://redux-toolkit.js.org/) v2.2.7
-- [Redux](https://redux.js.org/) v5.0.1
-- [React-Redux](https://react-redux.js.org/) v9.1.2
-- [React-Palm](https://github.com/btford/react-palm) v3.3.8 (This is an unmaintained dependency of Kepler.gl and I suspect needs to be replaced with Redux Thunk)
-- [React](https://reactjs.org/) v18.3.1
-- [Styled Components](https://styled-components.com/) v4.1.3 (pinnedd to 4.1.3 for compatibility with Kepler.gl)
+- [_Kepler.gl_](https://github.com/keplergl/kepler.gl) v3.0.0
+- [_Redux Toolkit_](https://redux-toolkit.js.org/) v2.2.7
+- [_Redux_](https://redux.js.org/) v5.0.1
+- [_React-Redux_](https://react-redux.js.org/) v9.1.2
+- [_React-Palm_](https://github.com/btford/react-palm) v3.3.8 (This is an unmaintained dependency of Kepler.gl and I suspect needs to be replaced with Redux Thunk)
+- [_React_](https://reactjs.org/) v18.3.1
+- [_Styled Components_](https://styled-components.com/) v4.1.3 (pinned to 4.1.3 for compatibility with Kepler.gl)
 
 ## RSBuild
 
-RSBuild, built on RSPack, is intened to be a drop-in replacement for [Webpack](https://webpack.js.org/). The main upsides are drastically reduced configuration and a much faster build time.
+RSBuild, built on RSPack, is intened to be a drop-in replacement for [_Webpack_](https://webpack.js.org/). The main upsides are drastically reduced configuration and a much faster build time.
 
 ### Getting started
 
