@@ -30,8 +30,8 @@ RSBuild, built on RSPack, is intened to be a drop-in replacement for [Webpack](h
 
 ```bash
 cd rsbuild
-pnpm i
-pnpm start
+npm i --legacy-peer-deps
+npm start
 ```
 
 ## Vite
@@ -42,8 +42,8 @@ Vite ("Next Generation Frontend Tooling") is widely adopted and proiveds an alte
 
 ```bash
 cd vite
-pnpm i
-pnpm start
+npm i --legacy-peer-deps
+npm start
 ```
 
 ## Turbopack
@@ -52,8 +52,8 @@ Turbopack is a Vercel rebuild of Webpack. It is currently in beta and accessible
 
 ```bash
 cd turbopack
-pnpm i
-pnpm run start:turbo
+npm i --legacy-peer-deps
+npm run start:turbo
 ```
 
 ## Issues
