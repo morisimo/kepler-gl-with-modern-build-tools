@@ -8,9 +8,9 @@ All examples are TypeScript and Redux Toolkit based.
 
 Frontend developer tooling has evolved rapidly in recent years. Typescript is the new norm, and build tools like Vite and RSBuild provide a more streamlined and efficient workflow compared to Webpack.
 
-Redux has also significantly evolved, with the introduction of [_Redux Toolkit_](https://redux-toolkit.js.org/) and [_RTK Query_](https://redux-toolkit.js.org/rtk-query/overview). The lates version (2.x.x) is Typescript-first and provides a more streamlined and efficient workflow compared older versions of Redux.
+Redux has also significantly evolved, with the introduction of [_Redux Toolkit_](https://redux-toolkit.js.org/) and [_RTK Query_](https://redux-toolkit.js.org/rtk-query/overview). The latest version (2.x.x) is Typescript-first and provides a more streamlined and efficient workflow compared to older versions of Redux.
 
-This repo is intended to serve as both a starter kit for integrating Kepler.gl into modern frontend applications as well as serve as a testbed for testing the latest versions of Kepler.gl, Redux, and Typescript.
+This repo is intended to serve as both a starter kit for integrating Kepler.gl into modern frontend applications as well as serve as a testbed for testing the latest versions of Kepler.gl with Redux and Typescript.
 
 ## Packages
 
