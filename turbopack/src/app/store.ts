@@ -1,17 +1,15 @@
-import keplerGlReducer, { enhanceReduxMiddleware } from "@kepler.gl/reducers";
-import { configureStore, Tuple } from "@reduxjs/toolkit";
-import { taskMiddleware } from "react-palm/tasks";
+import { enhanceReduxMiddleware, keplerGlReducer } from "@kepler.gl/reducers";
+import { configureStore } from "@reduxjs/toolkit";
+import { thunk } from "redux-thunk";
+
+const middlewares = enhanceReduxMiddleware([thunk]);
 
 const store = configureStore({
   reducer: {
     keplerGl: keplerGlReducer,
   },
-  middleware: (getDefaultMiddleware) => {
-    const enhancedMiddleware = enhanceReduxMiddleware(
-      getDefaultMiddleware().concat(taskMiddleware)
-    );
-    return new Tuple(...enhancedMiddleware);
-  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(middlewares),
 });
 
 export default store;
