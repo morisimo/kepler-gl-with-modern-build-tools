@@ -14,17 +14,17 @@ This repo is intended to serve as both a starter kit for integrating Kepler.gl i
 
 ## Packages
 
-- [_Kepler.gl_](https://github.com/keplergl/kepler.gl) v3.0.0
-- [_Redux Toolkit_](https://redux-toolkit.js.org/) v2.2.7
+- [_Kepler.gl_](https://github.com/keplergl/kepler.gl) v3.1.0
+- [_Redux Toolkit_](https://redux-toolkit.js.org/) v2.5.1
 - [_Redux_](https://redux.js.org/) v5.0.1
-- [_React-Redux_](https://react-redux.js.org/) v9.1.2
-- [_React-Palm_](https://github.com/btford/react-palm) v3.3.8 (This is an unmaintained dependency of Kepler.gl and I suspect needs to be replaced with Redux Thunk)
+- [_React-Redux_](https://react-redux.js.org/) v9.2.0
+- ~~[_React-Palm_](https://github.com/btford/react-palm) v3.3.8 (This is an unmaintained dependency of Kepler.gl and I suspect needs to be replaced with Redux Thunk)~~ This looks like it has been made a proper dependency of the relevant kepler.gl packages directly and replaced by Thunk internally?
 - [_React_](https://reactjs.org/) v18.3.1
-- [_Styled Components_](https://styled-components.com/) v4.1.3 (pinned to 4.1.3 for compatibility with Kepler.gl)
+- [_Styled Components_](https://styled-components.com/) v6.1.8 (pinned to 6.1.8 for compatibility with Kepler.gl)
 
 ## RSBuild
 
-RSBuild, built on RSPack, is intened to be a drop-in replacement for [_Webpack_](https://webpack.js.org/). The main upsides are drastically reduced configuration and a much faster build time.
+RSBuild, which is similar to vite but powered by RSPack, which in turn is intened to be a drop-in replacement for [_Webpack_](https://webpack.js.org/). The main upsides are drastically reduced configuration and a much faster build time.
 
 ### Getting started
 
